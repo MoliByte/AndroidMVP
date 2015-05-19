@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/png_01" android:duration="1000" />
+    <item android:drawable="@drawable/png_02" android:duration="1000" />
+    <item android:drawable="@drawable/png_01" android:duration="2000" />
+</animation-list>
+<!-- 
+oneshot :是否只播放一遍动画 true 播放一遍 false 循环播放
+默认就是false
+ -->
